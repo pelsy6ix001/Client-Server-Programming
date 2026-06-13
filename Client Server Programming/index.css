@@ -1,0 +1,98 @@
+/*
+Name: [Your Name]
+Section: [Your Section]
+Description: Modern, warm CSS theme for index.html.
+*/
+
+/* --- Base Layout --- */
+body {
+    background-color: #FAF6F0; /* Warm cream background */
+    color: #4A3E3D;            /* Deep soft brown for high readability */
+    font-family: "Georgia", "Garamond", serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    max-width: 750px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* --- Typography & Headings --- */
+h1, h2, h3 {
+    font-family: "Lucida Sans Unicode", "Helvetica", "Arial", sans-serif;
+    color: #8A8A00; /* Subtle olive green hue to connect with the brand colors */
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #F0EAE1;
+    text-align: center;
+    padding: 50px 20px;
+    border-bottom: 3px double #8A8A00;
+}
+
+header h1 {
+    font-size: 36pt;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    font-style: italic;
+    color: #7A6B68;
+    margin-top: 5px;
+    font-size: 13pt;
+}
+
+/* --- Featured Recipe Section --- */
+.featured {
+    background-color: #FFFFFF;
+    border-left: 5px solid #8A8A00;
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.recipe-link-wrapper {
+    margin-top: 20px;
+}
+
+.recipe-btn {
+    display: inline-block;
+    background-color: #8A8A00;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-weight: bold;
+    border-radius: 4px;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 11pt;
+    transition: background-color 0.2s ease;
+}
+
+.recipe-btn:hover {
+    background-color: #6B6B00;
+    text-decoration: none;
+}
+
+/* --- Lists --- */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* --- Footer --- */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 10pt;
+    color: #9C8E8C;
+    border-top: 1px solid #E6DDD3;
+    margin-top: 60px;
+}
